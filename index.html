@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C 62 MY BOOTSTRAP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <!--    For using Bootstrap we need to include 3 links inside the head section of html.-->
+
+</head>
+
+
+<body>
+    <div class="container">
+        <!--    to be given as a first tag in the body-->
+        <!--
+Container will add a margin-left, margin-right, padding-right and padding-left to all the
+elements inside it.
+-->
+
+        <section id="games">
+            <h2>PEOPLE DEFATED HELLA</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!--the id = My Carousel has been given just to show the effect of a Carousel ( a SLIDESHOW).. Any id can be used-->
+                <!--the class carousel slide helps to add a CSS and animation effect,
+which makes the items move when the next or previous buttons are clicked-->
+                <!--data-ride="carousel" tells Bootstrap to begin animating the
+carousel immediately when the page loads.
+-->
+
+                <div class="carousel-inner">
+                    <!--class="carousel-inner" includes all the contents of the slides  will be inside this div -->
+
+
+                    <div class="item active">
+                        <!--  this mentions the first slide we need to show as soon as the page loads-->
+                        <center>
+                            <a><img src="hqdefault.jpg"></a>
+
+                        </center>
+
+
+
+                        <div class="carousel-content">
+                            <!--              carousel-content means it will contain the text content of the respective slide.-->
+
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <a><img src="a583a52c7b2b37cfadc2876cdffe8fa2.jpg">
+                            </a>
+
+
+                        </center>
+
+
+                    </div>
+                </div>
+
+                <!--closing tag of carousel-inner--->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- closing tag of div class contaner --->
+</body>
+
+</html>

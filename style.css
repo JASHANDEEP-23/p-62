@@ -1,0 +1,13 @@
+#myCarousel{
+    background-color: skyblue;
+    padding-top: 20px;
+}
+
+body{
+    text-align: center;
+    
+}
+img{
+    height: 300px;
+    width: 300px;
+}
